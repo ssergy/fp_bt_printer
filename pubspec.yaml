@@ -12,7 +12,8 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bluetooth_serial:
-    path: /Users/ssergy/app2/flutter_bluetooth_serial
+    git:
+      url: https://github.com/ssergy/flutter_bluetooth_serial
 
 dev_dependencies:
   flutter_test:
@@ -20,7 +21,8 @@ dev_dependencies:
 
 dependency_overrides:
   flutter_bluetooth_serial:
-    path: /Users/ssergy/app2/flutter_bluetooth_serial
+    git:
+      url: https://github.com/ssergy/flutter_bluetooth_serial
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
